@@ -35,7 +35,7 @@ const Login = ({ setLoginUser }) => {
         <div className="col-md-3">
         </div>
         <div className="col-md-6">
-          <div className="card mt-5">
+          <div className="card mt-5 bg-dark text-danger">
             <h1 className="text-center">Login</h1>
             <form>
               <div className="form-row">
