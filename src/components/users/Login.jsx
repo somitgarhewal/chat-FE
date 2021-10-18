@@ -71,7 +71,7 @@ const Login = ({ setLoginUser }) => {
               </div>
               <div className="form-group row ">
                 <div className="col d-flex px-5 justify-content-end">
-                  <Link to='/sign_up' className='pe-auto text-decoration-none'>
+                  <Link to='/sign_up' className='pe-auto text-decoration-none text-warning'>
                     Don't have account Sign Up
                   </Link>
                 </div>

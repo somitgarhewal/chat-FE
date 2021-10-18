@@ -99,7 +99,7 @@ const SignUp = ({ setSignUpUser }) => {
               </div>
               <div className="form-group row ">
                 <div className="col d-flex px-5 justify-content-end">
-                  <Link to='/sign_in' className='pe-auto text-decoration-none'>
+                  <Link to='/sign_in' className='pe-auto text-decoration-none text-warning'>
                     Already have account Sign In
                   </Link>
                 </div>
