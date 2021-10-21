@@ -39,7 +39,7 @@ const SignUp = ({ setSignUpUser }) => {
         <div className="col-md-3">
         </div>
         <div className="col-md-6">
-          <div className="card mt-5">
+          <div className="card mt-5 bg-dark text-danger">
             <h1 className="text-center">Sign Up</h1>
             <form>
               <div className="form-row">
@@ -99,7 +99,7 @@ const SignUp = ({ setSignUpUser }) => {
               </div>
               <div className="form-group row ">
                 <div className="col d-flex px-5 justify-content-end">
-                  <Link to='/sign_in' className='pe-auto text-decoration-none'>
+                  <Link to='/sign_in' className='pe-auto text-decoration-none text-warning'>
                     Already have account Sign In
                   </Link>
                 </div>

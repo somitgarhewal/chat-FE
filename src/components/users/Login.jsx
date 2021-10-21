@@ -35,7 +35,7 @@ const Login = ({ setLoginUser }) => {
         <div className="col-md-3">
         </div>
         <div className="col-md-6">
-          <div className="card mt-5">
+          <div className="card mt-5 bg-dark text-danger">
             <h1 className="text-center">Login</h1>
             <form>
               <div className="form-row">
@@ -71,7 +71,7 @@ const Login = ({ setLoginUser }) => {
               </div>
               <div className="form-group row ">
                 <div className="col d-flex px-5 justify-content-end">
-                  <Link to='/sign_up' className='pe-auto text-decoration-none'>
+                  <Link to='/sign_up' className='pe-auto text-decoration-none text-warning'>
                     Don't have account Sign Up
                   </Link>
                 </div>
